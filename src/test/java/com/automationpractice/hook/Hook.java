@@ -12,7 +12,7 @@ public class Hook extends Browser {
 
     @After
     public void tearDown() {
-        //closeBrowser();
+        closeBrowser();
     }
 
 
